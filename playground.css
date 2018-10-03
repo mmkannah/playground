@@ -3,9 +3,9 @@
     font-size: 3em;
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-
+@media only screen and (max-device-width: 480px) {
     .section {
-        background-color: darkgray;
+        background-color: black;
+        font-size: 100px;
     }
 }
