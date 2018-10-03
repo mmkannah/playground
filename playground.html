@@ -1,0 +1,37 @@
+<html>
+<header>
+    <title>Playground</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="playground.css">
+    <link rel="stylesheet" type="text/css" href="fullpage.css">
+</header>
+
+<body>
+
+    <div id="fullpage">
+        <div class="section">One</div>
+        <div class="section">Two</div>
+        <div class="section">Three</div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.com/libraries/fullPage.js"></script>
+    <script src="fullpage.js"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+            anchors: ['page1', 'page2', 'page3', 'page4'],
+            sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+        });
+
+    </script>
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

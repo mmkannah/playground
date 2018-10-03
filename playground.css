@@ -1,0 +1,11 @@
+.section {
+    text-align: center;
+    font-size: 3em;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .section {
+        background-color: darkgray;
+    }
+}
